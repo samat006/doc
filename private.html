@@ -1,84 +1,190 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Politique de confidentialité - Covoiturage</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            padding: 20px;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background: white;
-            border-radius: 20px;
-            padding: 40px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-        }
-        h1 { color: #2563eb; margin-bottom: 20px; }
-        h2 { color: #2563eb; margin-top: 30px; margin-bottom: 15px; }
-        p { margin-bottom: 15px; }
-        ul { margin-left: 20px; margin-bottom: 15px; }
-        .date { color: #64748b; font-size: 0.9em; }
-    </style>
+  <meta charset="UTF-8" />
+  <title>Covoiturage (MoveLink) – Politique de Confidentialité</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary: #6C63FF;
+      --secondary: #8F94FB;
+      --text-dark: #1c1c1e;
+      --text-light: #6e6e73;
+      --bg: #f5f5f7;
+      --card: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: linear-gradient(180deg, var(--secondary), var(--bg));
+      color: var(--text-dark);
+    }
+
+    header {
+      padding: 80px 20px 60px;
+      text-align: center;
+      color: white;
+    }
+
+    header h1 {
+      font-size: 48px;
+      font-weight: 700;
+      letter-spacing: -1px;
+    }
+
+    header p {
+      margin-top: 12px;
+      font-size: 18px;
+      opacity: 0.9;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: -40px auto 0;
+      padding: 0 20px 60px;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 30px 60px rgba(0, 0, 0, 0.12);
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      font-size: 26px;
+      margin-bottom: 14px;
+    }
+
+    p {
+      font-size: 17px;
+      line-height: 1.7;
+      color: var(--text-light);
+      margin-bottom: 14px;
+    }
+
+    footer {
+      text-align: center;
+      color: #8e8e93;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 36px;
+      }
+
+      .card {
+        padding: 28px;
+      }
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Politique de confidentialité</h1>
-        <p class="date">Dernière mise à jour : 9 décembre 2025</p>
 
-        <h2>1. Données collectées</h2>
-        <p>Nous collectons les données suivantes pour assurer le bon fonctionnement de l'application :</p>
-        <ul>
-            <li>Nom et prénom</li>
-            <li>Email ou numéro de téléphone</li>
-            <li>Localisation GPS (uniquement pour les trajets)</li>
-            <li>Messages échangés entre utilisateurs</li>
-        </ul>
+  <header>
+    <h1>Covoiturage App</h1>
+    <p>Politique de Confidentialité</p>
+  </header>
 
-        <h2>2. Utilisation des données</h2>
-        <p>Vos données sont utilisées pour :</p>
-        <ul>
-            <li>Faciliter la mise en relation entre conducteurs et passagers</li>
-            <li>Permettre la communication entre utilisateurs</li>
-            <li>Améliorer nos services</li>
-            <li>Assurer la sécurité de la plateforme</li>
-        </ul>
+  <div class="container">
 
-        <h2>3. Sécurité</h2>
-        <p>Nous prenons la sécurité de vos données très au sérieux :</p>
-        <ul>
-            <li>Toutes les données sont chiffrées en transit (HTTPS)</li>
-            <li>Stockage sécurisé dans des bases de données protégées</li>
-            <li>Accès restreint aux données personnelles</li>
-            <li>Aucune revente de vos données à des tiers</li>
-        </ul>
-
-        <h2>4. Vos droits</h2>
-        <p>Vous avez le droit de :</p>
-        <ul>
-            <li>Accéder à vos données personnelles</li>
-            <li>Modifier vos informations</li>
-            <li>Supprimer votre compte et vos données</li>
-            <li>Exporter vos données</li>
-        </ul>
-
-        <h2>5. Conservation des données</h2>
-        <p>Vos données sont conservées tant que votre compte est actif. Après suppression de votre compte, vos données sont effacées dans un délai de 30 jours.</p>
-
-        <h2>6. Cookies</h2>
-        <p>Nous utilisons des cookies uniquement pour maintenir votre session connectée. Aucun cookie de tracking publicitaire n'est utilisé.</p>
-
-        <h2>7. Contact</h2>
-        <p>Pour toute question concernant vos données personnelles, contactez-nous :</p>
-        <p><strong>Email :</strong> a2sseck@gmail.com</p>
+    <div class="card">
+      <h2>Introduction</h2>
+      <p>
+        Cette politique de confidentialité s’applique à l’application <strong>Covoiturage App</strong>,
+        publiée sur Google Play par <strong>Abdou Samath Seck</strong>.
+        Nous nous engageons à protéger vos données personnelles et à respecter les règles du Google Play Developer Program.
+      </p>
     </div>
+
+    <div class="card">
+      <h2>1. Données collectées</h2>
+      <p>Nous collectons les données suivantes pour assurer le bon fonctionnement de l'application :</p>
+      <p>• Nom et prénom<br>
+         • Adresse e-mail ou numéro de téléphone<br>
+         • Localisation GPS (uniquement pour les trajets)<br>
+         • Messages échangés entre utilisateurs
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>2. Utilisation des données</h2>
+      <p>Vos données sont utilisées pour :</p>
+      <p>• Faciliter la mise en relation entre conducteurs et passagers<br>
+         • Permettre la communication entre utilisateurs<br>
+         • Améliorer nos services<br>
+         • Assurer la sécurité de la plateforme
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>3. Sécurité</h2>
+      <p>
+        Nous prenons la sécurité de vos données très au sérieux :
+        <br><br>
+        • Chiffrement des données en transit (HTTPS)<br>
+        • Stockage sécurisé dans des bases de données protégées<br>
+        • Accès restreint aux données personnelles<br>
+        • Aucune revente de vos données à des tiers
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>4. Vos droits</h2>
+      <p>
+        Vous pouvez à tout moment :
+        <br><br>
+        • Accéder à vos données personnelles<br>
+        • Modifier vos informations<br>
+        • Supprimer votre compte et vos données<br>
+        • Exporter vos données
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>5. Conservation des données</h2>
+      <p>
+        Vos données sont conservées tant que votre compte est actif.
+        Après suppression, elles sont effacées dans un délai de <strong>30 jours</strong>.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>6. Cookies</h2>
+      <p>
+        Nous utilisons uniquement des cookies nécessaires au maintien de votre session.
+        Aucun cookie publicitaire n’est utilisé.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>7. Contact</h2>
+      <p>
+        Pour toute question concernant vos données personnelles :
+        <br><br>
+        <strong>Développeur :</strong> Abdou Samath Seck<br>
+        <strong>Email :</strong> <a href="mailto:a2sseck@gmail.com">a2sseck@gmail.com</a><br>
+        <strong>Application :</strong> Covoiturage App
+      </p>
+    </div>
+
+    <footer>
+      © 2026 Covoiturage App · Développé par Abdou Samath Seck
+    </footer>
+
+  </div>
+
 </body>
 </html>
